@@ -1,0 +1,16 @@
+C:\Users\desha\OneDrive\Desktop\repos\test-dungeon\C#\app\bin\Debug\net8.0\app.exe
+C:\Users\desha\OneDrive\Desktop\repos\test-dungeon\C#\app\bin\Debug\net8.0\app.deps.json
+C:\Users\desha\OneDrive\Desktop\repos\test-dungeon\C#\app\bin\Debug\net8.0\app.runtimeconfig.json
+C:\Users\desha\OneDrive\Desktop\repos\test-dungeon\C#\app\bin\Debug\net8.0\app.dll
+C:\Users\desha\OneDrive\Desktop\repos\test-dungeon\C#\app\bin\Debug\net8.0\app.pdb
+C:\Users\desha\OneDrive\Desktop\repos\test-dungeon\C#\app\obj\Debug\net8.0\app.csproj.AssemblyReference.cache
+C:\Users\desha\OneDrive\Desktop\repos\test-dungeon\C#\app\obj\Debug\net8.0\app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\desha\OneDrive\Desktop\repos\test-dungeon\C#\app\obj\Debug\net8.0\app.AssemblyInfoInputs.cache
+C:\Users\desha\OneDrive\Desktop\repos\test-dungeon\C#\app\obj\Debug\net8.0\app.AssemblyInfo.cs
+C:\Users\desha\OneDrive\Desktop\repos\test-dungeon\C#\app\obj\Debug\net8.0\app.csproj.CoreCompileInputs.cache
+C:\Users\desha\OneDrive\Desktop\repos\test-dungeon\C#\app\obj\Debug\net8.0\app.sourcelink.json
+C:\Users\desha\OneDrive\Desktop\repos\test-dungeon\C#\app\obj\Debug\net8.0\app.dll
+C:\Users\desha\OneDrive\Desktop\repos\test-dungeon\C#\app\obj\Debug\net8.0\refint\app.dll
+C:\Users\desha\OneDrive\Desktop\repos\test-dungeon\C#\app\obj\Debug\net8.0\app.pdb
+C:\Users\desha\OneDrive\Desktop\repos\test-dungeon\C#\app\obj\Debug\net8.0\app.genruntimeconfig.cache
+C:\Users\desha\OneDrive\Desktop\repos\test-dungeon\C#\app\obj\Debug\net8.0\ref\app.dll
