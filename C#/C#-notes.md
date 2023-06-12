@@ -148,3 +148,88 @@ If you require multiple lines of code for an outcome, use brackets to denote thi
         Console.WriteLine("The answer is greater than 10");
         Console.WriteLine("This is a second line.")
     }
+
+## Ternary
+C# uses the familiar 
+
+"&&" for And,
+
+"||" for Or,
+
+and "==" for Equality.
+
+## Loops
+### While Loops
+
+    int counter = 0;
+    while (counter < 10)
+    {
+        Console.WriteLine($"Hello World! The counter is {counter}");
+        counter++;
+    }
+Do... While
+
+    int counter = 0;
+    do
+    {
+        Console.WriteLine($"Hello World! The counter is {counter}");
+        counter++;
+    } while (counter < 10);
+These are effectively the same, just while tests for a bool, a Do..While will check the condition of the Do before continuing, and can be used for more specificity.
+### For Loops
+
+    for (int counter = 0; counter < 10; counter++)
+    {
+        Console.WriteLine($"Hello World! The counter is {counter}");
+    }
+### Nested
+
+    for (int row = 1; row < 11; row++)
+    {
+    for (char column = 'a'; column < 'k'; column++)
+        {
+            Console.WriteLine($"The cell is ({row}, {column})");
+        }
+    }
+    // The cell is (1, a)
+    // The cell is (1, b)
+    // The cell is (1, c)
+    // The cell is (1, d)
+    // The cell is (1, e)
+    // etc
+
+## Lists
+Lists are shown in curly brackets. Don't forget this!
+
+    var names = new List<string> { "Liam", "Ana", "Felipe" };
+    foreach (var name in names)
+    {
+        Console.WriteLine($"Hello {name.ToUpper()}!");
+    }
+Append to a List with list.Add("new item"), or remove with .Remove("matching string")
+
+    names.Add("Maria");
+    names.Add("Bill");
+    names.Remove("Ana");
+Access Indices much like other languages, [ Int ]
+
+    Console.WriteLine($"My name is {names[0]}.");
+    Console.WriteLine($"I've added {names[2]} and {names[3]} to the list.");
+Use methods like listname.Count to access length of a list
+
+Much like JS, we have access to IndexOf
+
+    var index = names.IndexOf("Felipe");
+    if (index != -1)
+    {
+        Console.WriteLine($"The name {names[index]} is at index {index}");
+    }
+Similarly, if no match is found it will return -1.
+
+You may also .Sort Lists. With strings, the sort method is alphabetical. Note the foreach loop as well.
+
+    names.Sort();
+    foreach (var name in names)
+    {
+        Console.WriteLine($"Hello {name.ToUpper()}!");
+    }
