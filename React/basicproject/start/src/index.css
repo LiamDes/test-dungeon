@@ -1,0 +1,30 @@
+:root {
+  background-color: #b4c8db;
+}
+
+#root {
+  display: grid;
+  grid-template-areas: 
+  'head head'
+  'side main'
+  'foot foot';
+  grid-template-columns: 1fr calc(100% - 150px);
+  grid-template-rows: 1fr calc(100% - 150px) 50px;
+  height: calc(100dvh - 20px);
+}
+
+header {
+  grid-area: head;
+}
+
+aside {
+  grid-area: side;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: foot;
+}
